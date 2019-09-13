@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "playlove",
+    "description": "No description",
+    "slug": "snack-S1mvvVS7H",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "https://github.com/EmerisScala/EmerisScala.github.io/blob/master/img/PlaylvoeIcon.png?raw=true",
+    "loading": {
+      "icon": "https://github.com/EmerisScala/EmerisScala.github.io/blob/master/img/PlaylvoeIcon.png?raw=true",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.emeris.playful"
+    },
+    "android": {
+      "package": "com.emeris.playful"
+    }
+  }
+}
