@@ -7,6 +7,7 @@
   "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
     "@expo/vector-icons": "^10.0.4",
+    "email-validator": "^2.0.4",
     "expo": "^34.0.0",
     "react": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.1.tar.gz",

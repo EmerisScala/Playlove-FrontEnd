@@ -52,21 +52,21 @@ export class Login extends React.Component {
       </TouchableWithoutFeedback>
       </KeyboardAvoidingView>
       </SafeAreaView>
-    );
+    )
   }
 
   handleSubmit = async () => {
     userData = this.state
     await this.props.authUser(userData)
     if(this.props.user.data.result == true){
-      this.props.navigation.navigate('Home');
+      this.props.navigation.navigate('Home')
     }else{
       alert("usuario desconocido")
     }
   }
 
   handleRegister = () => {
-    
+    this.props.navigation.navigate('Register')
   }
 }
 

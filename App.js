@@ -8,13 +8,15 @@ import { createStackNavigator } from 'react-navigation-stack';
 import LoginContainer from './src/views/Login'
 import HomeContainer from './src/views/Home'
 import AuthLoading from './src/views/AuthLoading'
+import RegisterContainer from './src/views/Register'
 
 let store = configureStore()
 
 let RootStack = createStackNavigator({
   Auth: AuthLoading,
   Home: HomeContainer,
-  Login: LoginContainer
+  Login: LoginContainer,
+  Register: RegisterContainer
 },{
   headerMode: 'none',
   navigationOptions: {
