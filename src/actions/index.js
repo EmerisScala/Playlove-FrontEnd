@@ -6,7 +6,9 @@ import {
     CHECK_AUTH,
     LOGGING_USER,
     LOGGING_USER_SUCCESS,
-    LOGGING_USER_FAILURE
+    LOGGING_USER_FAILURE,
+    LOAD_FONTS,
+    CHANGE_INDEX
   } from '../constants'
   
   import {
@@ -53,13 +55,20 @@ import {
       authUserFailure(error)
     }
   }
-
-  export const selected_tab = (tabId2) => {
-    return {
-      type: 'selected_tab',
-      payload: tabId2
+    
+    export const selectedTab = (index) => {
+      return {
+        type: CHANGE_INDEX,
+        payload: index
+      }
     }
-  }
+
+    export const loadFonts = () =>{
+      return {
+        type: LOAD_FONTS,
+        payload: true
+      }
+    }
   
   export const getData = () => {
     return {

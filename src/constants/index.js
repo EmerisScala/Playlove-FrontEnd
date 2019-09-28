@@ -9,3 +9,7 @@ export const CHECK_AUTH = "CHECK_AUTH"
 export const LOGGING_USER = "LOGGING_USER"
 export const LOGGING_USER_SUCCESS = "LOGGING_USER_SUCCESS"
 export const LOGGING_USER_FAILURE = "LOGGING_USER_FAILURE"
+
+//All the routes of the bottom navigation
+export const CHANGE_INDEX = "CHANGE_INDEX"
+export const LOAD_FONTS = "LOAD_FONTS"
